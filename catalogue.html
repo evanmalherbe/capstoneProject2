@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Use external Bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Use external css stylesheet-->
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <!--Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+    <!-- Use script.js external Javascript file -->
+    <script src="scripts/script.js"></script>
+    <title>Product Catalogue - Evan's Store</title>
+</head>
+
+<body>
+    <!-- Header background container (includes header and navigation) -->
+    <div class="header-backgrnd">
+
+        <!-- Header text and logo -->
+        <div id="top" class="header row align-items-center">
+            <div class="col-0.5">
+                <img class="logo" src="images/leaf-logo.png" alt="leaf logo">
+            </div>
+            <div class="col-4 header-text">
+                Evan's Store
+            </div>
+
+            <!-- Navigation links in header-->
+            <nav class="col-5 navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="spacer">|</li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="spacer">|</li>
+                    <li><a class="current-page" href="">Products</a></li>
+                    <li class="spacer">|</li>
+                    <li><a href="shoppingCart.html">Shopping Cart</a></li>
+                    <li class="spacer">|</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Shopping cart icon on right of header -->
+            <div class="col-1 cartIconDiv">
+                <a href="shoppingCart.html" class="cartIconLink">
+                    <img class="cart-img" src="images/shopping-cart.png" alt="shopping cart">
+                </a>
+                <div class="cart-text">0</div>
+            </div>
+
+            <!-- Header text and logo ends-->
+        </div>
+
+        <!-- Header background container ends here -->
+    </div>
+
+    <!-- Main content container begins -->
+    <div class="container">
+
+        <!-- Breadcrumbs -->
+        <div class="row">
+            <ul class="breadcrumb-list">
+                <li><a href="index.html">Home</a></li>
+                <li>></li>
+                <li class="current-page">Product Catalogue</li>
+            </ul>
+            <!-- Breadcrumbs end-->
+        </div>
+
+        <!-- Container for page content-->
+        <div class="row">
+            <div class="row">
+                <h1>Product Catalogue</h1>
+                <p>Browse through our exciting product offerings below. You won't find better prices anywhere else.
+                    If you do, let us know and we'll match the price!
+                </p>
+            </div>
+
+            <!-- "Card deck" div with products begins here. Each card is styled with Bootstrap-->
+            <div class="card-deck">
+
+                <!-- Laptop product -->
+                <div class="card p-2 mb-5 bg-white rounded">
+                    <!-- Clicking the time links user to product details page -->
+                    <a href="laptop.html">
+                        <img class="card-img-top img-thumbnail img-fluid" src="images/laptop.jpg" alt="laptop">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Laptop (R 8995)</h5>
+                        <p class="card-text">This i7 laptop is blazingly fast and comes standard with a 500Gb
+                            SSD hard drive, 8Gb of RAM and all the other bells and whistles you might expect.
+                            <br>
+                            <!-- Link to product details page-->
+                            <a href="laptop.html"> More info...</a>
+                        </p>
+                        <!-- When user clicks this button, the product is added to the cart and an alert is displayed,
+                        letting user know their current sub total -->
+                        <a href="" class="btn btn-outline-primary laptopProduct">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!-- Milk product -->
+                <div class="card p-2 mb-5 bg-white rounded">
+                    <a href="milk.html">
+                        <img class="card-img-top img-thumbnail img-fluid" src="images/milk.jpg" alt="milk">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Milk (R 20)</h5>
+                        <p class="card-text">Like milk? Well, we have the best milk you've ever tasted. Available in
+                            jugs or glasses. Your choice! Straight from the farm. Grassfed cows only.
+                            <br>
+                            <a href="milk.html"> More info...</a>
+                        </p>
+                        <a href="" class="btn btn-outline-primary milkProduct">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!-- Computer screen product -->
+                <div class="card p-2 mb-5 bg-white rounded">
+                    <a href="screen.html">
+                        <img class="card-img-top img-thumbnail img-fluid" src="images/screen.jpg" alt="computer screen">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Computer Screen &nbsp;&nbsp;&nbsp; (R 3995)</h5>
+                        <p class="card-text">This 17 inch screen is a sight to behold. You wouldn't believe the
+                            picture quality and clarity. Perfect for work or leisure. Movies have never looked This
+                            good.
+                            <br>
+                            <a href="screen.html"> More info...</a>
+                        </p>
+                        <a href="" class="btn btn-outline-primary screenProduct">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!-- Grapes product -->
+                <div class="card p-2 mb-5 bg-white rounded">
+                    <a href="grapes.html">
+                        <img class="card-img-top img-thumbnail img-fluid" src="images/grapes.jpg" alt="grapes">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Grapes (R 19.95)</h5>
+                        <p class="card-text">Looking to add some flavour to your salad? These are the sweetest
+                            grapes in South Africa. Sourced from the finest vineyards in the Cape. Purchase the
+                            box for this discount price. While stocks last.
+                            <br>
+                            <a href="grapes.html"> More info...</a>
+                        </p>
+                        <a href="" class="btn btn-outline-primary grapesProduct">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!-- Olive oil product -->
+                <div class="card p-2 mb-5 bg-white rounded">
+                    <a href="olive-oil.html">
+                        <img class="card-img-top img-thumbnail img-fluid" src="images/olive-oil.jpg" alt="olive oil">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Olive oil (R 99)</h5>
+                        <p class="card-text">Perfect for salads or to give your Foccacio an extra bit of taste.
+                            This extra virgin olive oil is shipped in straight from Italy. Must be sampled to be
+                            believed. Only the best for our loyal customers.
+                            <br>
+                            <a href="olive-oil.html"> More info...</a>
+                        </p>
+                        <a href="" class="btn btn-outline-primary oliveOilProduct">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!-- "Card deck" div displaying the products ends here -->
+            </div>
+
+            <!-- Container for page content ends -->
+        </div>
+
+        <!-- Main content container ends -->
+    </div>
+
+    <!-- These links are hidden until you hover over the "Products" navigation link in the header. Then I used
+        jQuery to make them slide out -->
+    <div class="hiddenDiv">
+        <div class="hiddenLinks">
+            <div><a href="laptop.html">Laptop</a></div>
+            <div><a href="milk.html">Milk</a></div>
+            <div><a href="screen.html">Computer screen</a></div>
+            <div><a href="grapes.html">Grapes</a></div>
+            <div><a href="olive-oil.html">Olive oil</a></div>
+        </div>
+    </div>
+
+    <!-- Back to top arrow-->
+    <div class="row" style="margin-left: 15px;">
+        <img class="arrow-icon" src="images/arrow-icon.png" alt="">
+        <a href="#top">&nbsp; Back to the top</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-container">
+        <footer>
+            <p>© Copyright Evan's Store For All Things 2021</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
