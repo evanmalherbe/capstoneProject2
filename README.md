@@ -7,6 +7,7 @@ This is the capstone project for level 1 of the HyperionDev Full Stack Developme
 * [Instructions](#instructions)
 * [Technologies](#technologies)
 * [Installation](#installation)
+* [Usage](#usage)
 * [Credits](#credits) 
 
 ## Instructions
@@ -40,7 +41,8 @@ This project uses:
 * jQuery 3.6.0
 
 ## Installation
-If you'd like to look through my code for this project, you can view my GitHub repository for the project - [Capstone Project 2](https://github.com/evanmalherbe/capstoneProject2). To clone this respository to your local machine, use the following URL's: [SSH](git@github.com:evanmalherbe/capstoneProject2.git) or [HTTPS](https://github.com/evanmalherbe/capstoneProject2.git) . To learn how to clone a Git repository, go to ![Cloning a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) .
+If you'd like to look through my code for this project, you can view my GitHub repository for the project - [Capstone Project 2](https://github.com/evanmalherbe/capstoneProject2). To clone this respository to your local machine, use the following URL's: 
+[SSH](git@github.com:evanmalherbe/capstoneProject2.git) or [HTTPS](https://github.com/evanmalherbe/capstoneProject2.git) . To learn how to clone a Git repository, go to [Cloning a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) .
 
 ## Usage
 To use this website, simply follow the instructions below (includes screenshots):
@@ -76,4 +78,4 @@ Finally, you can click the "Confirm order" button on the Shopping cart page to f
 ![Figure 6](images/click-confirm.png)
 
 ### Credits
-This website was created by Evan Malherbe during the HyperionDev Full Stack Web Development Bootcamp November 2021 [GitHub profile:](https://github.com/evanmalherbe) 
+This website was created by Evan Malherbe during the HyperionDev Full Stack Web Development Bootcamp November 2021 [GitHub profile](https://github.com/evanmalherbe) 
