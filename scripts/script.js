@@ -353,8 +353,7 @@ function showCart() {
 
 
 $(document).ready(function () {
-    let run2 = false;
-    let run = false;
+    
     // Update little number at top right of header to show number of items in shopping cart (if any)
     updateCartItemsText();
 
@@ -496,6 +495,7 @@ $(document).ready(function () {
         alert("Your order was successful! Your order number is: " + orderNum);
     });
 
+    /*
     // Fades out office image on homepage when user hover over the image
    $(".officeImg").mouseover(function() {
        $(this).css("opacity", "50%").css("border","blue 2px solid").fadeOut(3000);
@@ -534,15 +534,9 @@ $(document).ready(function () {
         .css("backgroundColor", "#e5e7eb")
         .css("color", "#0b79bf")
         .css("textDecoration", "underline");
-    });
+    }); */
 
 });
 
-/*
-padding: 20px;, "border", "1px solid #4c4c4e"
-    background-color: #0b79bf;
-    border: 1px solid #4c4c4e;
-    color: #e5e7eb;
-    text-decoration: none; */
 
 // End of jQuery functions section -------------------------------------------- //
